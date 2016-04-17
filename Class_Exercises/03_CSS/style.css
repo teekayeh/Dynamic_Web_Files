@@ -1,0 +1,56 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	background: url(Tulips.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+#topheader {
+	background: #333;
+	height: 50px;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+
+#topheader h1 {
+	font-family: arial; 
+
+}
+
+main {
+position: relative;
+margin-top: 10%;
+}
+
+.box {
+	width: 30%;
+	max-width: 200px;
+	padding: 10px;
+	margin: 10px;
+	background: white;
+	color: black;
+	position: relative;
+}
+
+.innerbox {
+background: red;
+width: 50%;
+position: absolute;
+right: 0px;
+
+}
+
+.imgtext {
+	font-size: 50px;
+	position: relative;
+	top: 50px;
+	left: 200px;
+
+}
